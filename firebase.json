@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "zachsmoak-site",
     "public": "public",
     "ignore": [
       "firebase.json",
