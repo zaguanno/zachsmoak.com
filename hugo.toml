@@ -38,7 +38,7 @@ defaultContentLanguageInSubdir = false
   copyright = "© 2026 | Zach Smoak"
   resume_label = "View Resume"
   sectionPagesMenu = "main"
-  formspreeendpoint = ""
+  formspreeendpoint = "https://formspree.io/f/mvzjzdjw"
   pexelsapikey = ""
 
   [[params.social]]
