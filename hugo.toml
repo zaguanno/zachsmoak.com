@@ -1,0 +1,95 @@
+baseURL = "https://zachsmoak.com"
+locale = "en-us"
+title = "Zach Smoak"
+theme = "careercanvas"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    label = "English"
+    weight = 1
+    [languages.en.params]
+      firstName = "Zach"
+      lastName = "Smoak"
+      tagline = "Your tagline here. Second sentence cycles in the same block."
+      hero_description = "Short bio for the hero section."
+      hero_location = "Philadelphia, PA"
+      collab_tags = ["Tag 1", "Tag 2", "Tag 3"]
+      resume_url = "/files/ZSmoak_Resume_v7.1.pdf"
+
+[build]
+  writeStats = true
+
+[params]
+  name = "Zach Smoak"
+  email = "zsmoak@gmail.com"
+  profile_image = "/images/profile.jpeg"
+  author = "Zach Smoak"
+  og_image = "images/og.png"
+  description = "Zach Smoak — personal portfolio."
+  linkedin_url = "https://www.linkedin.com/in/zachsmoak/"
+  linkedin_text = "www.linkedin.com/in/zachsmoak"
+  github_url = "https://www.github.com/zaguanno"
+  github_text = "www.github.com/zaguanno"
+  calendly_url = "https://calendar.app.google/D5yppgHARB5t1iNF6"
+  calendly_height = "700px"
+  copyright = "© 2026 | Zach Smoak"
+  resume_label = "View Resume"
+  sectionPagesMenu = "main"
+  formspreeendpoint = ""
+  pexelsapikey = ""
+
+  [[params.social]]
+    icon = "linkedin-in"
+    url = "https://www.linkedin.com/in/zachsmoak/"
+
+  [[params.social]]
+    icon = "github"
+    url = "https://github.com/zaguanno"
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+  [markup.highlight]
+    style = "monokai"
+
+[server]
+  [[server.headers]]
+    for = "/**/*.css"
+    [server.headers.values]
+      Content-Type = "text/css"
+
+[security]
+  [security.funcs]
+    getenv = ['^HUGO_', '^CI$']
+
+[params.color_palettes]
+  [[params.color_palettes.palette]]
+   name = "forest"
+   main_color = "#2C5F3A"
+   second_color = "#C49A28"
+   third_color = "#3A8A55"
+  [[params.color_palettes.palette]]
+   name = "sage"
+   main_color = "#3A6B4A"
+   second_color = "#A67C20"
+   third_color = "#5A9E6F"
+  [[params.color_palettes.palette]]
+   name = "moss"
+   main_color = "#1E4A2A"
+   second_color = "#D4A830"
+   third_color = "#2E7A44"
+  [[params.color_palettes.palette]]
+    name = "forest2"
+    main_color = "#059669"    # Deep Emerald – natural and stable
+    second_color = "#10B981"  # Green – growth and success
+    third_color = "#F59E0B"   # Golden Yellow – wisdom and clarity
+
+[params.pexels]
+  queries = ["long span bridges", "skyscrapers", "sky and clouds"]

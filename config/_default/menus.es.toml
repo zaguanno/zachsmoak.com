@@ -1,0 +1,24 @@
+[[main]]
+name = "Sobre mí"
+url = "/#about"
+weight = 2
+
+[[main]]
+name = "Habilidades"
+url = "/#skills"
+weight = 3
+
+[[main]]
+name = "Experiencia"
+url = "/#experience"
+weight = 4
+
+[[main]]
+name = "Tech Stack"
+url = "/#technical"
+weight = 4.5
+
+[[main]]
+name = "Contacto"
+url = "/#contact"
+weight = 5

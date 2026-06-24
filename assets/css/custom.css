@@ -1,0 +1,9 @@
+/* Hero section is always rendered in "light" mode regardless of dark toggle */
+.dark .hero-section {
+  --color-bg: var(--color-white);
+  --color-bg-secondary: var(--color-gray-100);
+  --color-bg-tertiary: var(--color-gray-100);
+  --color-text-primary: var(--color-gray-900);
+  --color-text-secondary: var(--color-gray-700);
+  --color-border: var(--color-gray-300);
+}
